@@ -1,7 +1,11 @@
+import About from '@/components/main/creator/About';
+
 export default function Home() {
   return (
-    <main className="">
-      main
+    <main>
+      <section>
+        <About/>
+      </section>
     </main>
   );
 }
