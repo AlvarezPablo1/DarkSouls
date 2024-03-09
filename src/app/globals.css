@@ -2,14 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 *{
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+
 html{
-  background: linear-gradient(#000000,#040919);
+  scrollbar-width: thin;
+  scrollbar-color: rgb(185, 99, 19) #232323;
+  scroll-behavior: smooth;
+  background: linear-gradient(to top,#000000,#040919);
   color: #ffffff;
-  height: 100%;
+  height: auto;
 }
